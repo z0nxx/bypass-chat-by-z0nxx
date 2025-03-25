@@ -152,7 +152,7 @@ local function sendMessage()
     local message = textBox.Text
     if message and message ~= "" then
         -- Добавляем приписку
-        local newMessage = message .. " bypass by z0nxx il il il"
+        local newMessage = message .. " il il il"
         
         -- Отправляем сообщение в чат
         chatChannel:SendAsync(newMessage)
