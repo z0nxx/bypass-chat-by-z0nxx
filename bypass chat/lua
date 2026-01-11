@@ -90,7 +90,7 @@ local emojiLabel = Instance.new("TextLabel")
 emojiLabel.Size = UDim2.new(1, 0, 0.2, 0)
 emojiLabel.Position = UDim2.new(0, 0, 0, 0)
 emojiLabel.BackgroundTransparency = 1
-emojiLabel.Text = "🤬 затролль эту суку 🤬"  -- Смайлик и текст
+emojiLabel.Text = "🤬MADE BY Z0NXX🤬"  -- Смайлик и текст
 emojiLabel.TextColor3 = Color3.new(1, 1, 1)
 emojiLabel.TextScaled = true
 emojiLabel.TextSize = 30
@@ -152,7 +152,7 @@ local function sendMessage()
     local message = textBox.Text
     if message and message ~= "" then
         -- Добавляем приписку
-        local newMessage = message .. " il il il"
+        local newMessage = message .. " "
         
         -- Отправляем сообщение в чат
         chatChannel:SendAsync(newMessage)
